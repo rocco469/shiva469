@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b897dc7d-33ab-4819-b158-f55c5cd98186"
+      }
+    },
+    "owner": "manuels"
   }
 }
