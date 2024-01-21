@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>rocco tiene sueño</Text>
+      <Text>rocco tiene sueño y no me da polagit status</Text>
       <StatusBar style="auto" />
     </View>
   );
