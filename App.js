@@ -1,13 +1,11 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React from 'react';
+import  {StatusBar}  from 'expo-status-bar';
+import  {StyleSheet, View}  from 'react-native';
+import Main from './src/components/Main.jsx';
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>rocco tiene sueño y no me da polagit status3123123</Text>
-      <StatusBar style="auto" />
-      <Text>ps saque la cervea</Text>
-    </View>
+  return (<Main/>
+    
   );
 }
 
