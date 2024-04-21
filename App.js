@@ -1,19 +1,7 @@
-import React from 'react';
-import  {StatusBar}  from 'expo-status-bar';
-import  {StyleSheet, View}  from 'react-native';
-import Main from './src/components/Main.jsx';
+import React from 'react'
+import Main from './src/components/Main.jsx'
+import { NativeRouter } from 'react-router-native'
 
-export default function App() {
-  return (<Main/>
-    
-  );
+export default function App () {
+  return <NativeRouter><Main /></NativeRouter>
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
